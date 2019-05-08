@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">小遛</string>
+    <string name="userid_found">用户信息已存在，正在跳转登录操作…</string>
+    <string name="logining">使用%s帐号登录中…</string>
+    <string name="auth_cancel">授权操作已取消</string>
+    <string name="auth_error">授权操作遇到错误，请阅读Logcat输出</string>
+    <string name="auth_complete">授权成功，正在跳转登录操作…</string>
+    <string name="shouye">首页</string>
+    <string name="xiaoxi">消息</string>
+    <string name="dingdan">订单</string>
+    <string name="guangchang">广场</string>
+    <string name="wode">我的</string>
+
+    <string name="text_all">全部</string>
+    <string name="text_unstart">未开始</string>
+    <string name="text_ing">进行中</string>
+    <string name="text_finish">已完成</string>
+
+    <string name="text_message_tell">通知</string>
+    <string name="text_message_room">消息</string>
+
+    <string-array name="dog">
+        <item >宠物1</item>
+        <item >宠物2</item>
+        <item  >宠物3</item>
+    </string-array>
+
+    <string-array name="duration">
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+    </string-array>
+
+    <string-array name="dogdate">
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+    </string-array>
+
+    <!--时钟用到的-->
+    <string name="cancle">取消</string>
+    <string name="title">请选择时间</string>
+    <string name="commit">确定</string>
+    <string name="year">年</string>
+    <string name="month">月</string>
+    <string name="day">日</string>
+    <string name="hour">时</string>
+    <string name="minute">分</string>
+    <string name="select_date">选择日期</string>
+    <string name="current_date">当前日期</string>
+    <string name="select_time">选择时间</string>
+    <string name="current_time">当前时间</string>
+
+    <!--身份验证需要用到的-->
+    <string-array name="sp_identity">
+        <item>中华人民共和国身份证</item>
+        <item>军人及武警人员证件</item>
+        <item>护照</item>
+    </string-array>
+
+    <string name="sexs">选择性别</string>
+
+    <string name="text_unknown">未知</string>
+</resources>

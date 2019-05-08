@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.asus.xiaoliu">
+    <!--允许联网 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!--获取GSM（2g）、WCDMA（联通3g）等网络状态的信息  -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!--获取wifi网络状态的信息 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!--保持CPU 运转，屏幕和键盘灯有可能是关闭的,用于文件上传和下载 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!--获取sd卡写的权限，用于文件上传和下载-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!--允许读取手机状态 用于创建BmobInstallation-->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!--拨打电话的权限-->
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <!-- 蓝牙分享所需的权限,不需要用到的话可以省略 -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <!--获取手机权限-->
+    <uses-permission android:name="android.permission-group.MICROPHONE"/>
+    <application
+        android:largeHeap="true"
+        android:hardwareAccelerated="false"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="小遛"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".HomeActivity"/>
+        <activity android:name=".GuideActivity"/>
+        <activity android:name=".StartActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".registrations.RegistStepOne"/>
+        <activity android:name=".registrations.ActivityReg"/>
+        <activity android:name=".registrations.UserAgreement"/>
+        <activity android:name=".registrations.Phones"/>
+        <activity android:name=".registrations.CustomerMessage"/>
+        <activity android:name=".fragment.shouyeChildern.ShouOO"/>
+        <activity android:name=".fragment.shouyeChildern.ShouOT"/>
+        <activity android:name=".fragment.shouyeChildern.FeeScale"/>
+        <activity android:name=".fragment.shouyeChildern.ShouOF"/>
+        <activity android:name=".fragment.shouyeChildern.TipSuccess"/>
+        <activity android:name=".fragment.shouyeChildern.ShouTFi"/>
+        <activity android:name=".fragment.shouyeChildern.ShouTO"/>
+        <activity android:name=".fragment.shouyeChildern.ShouTT"/>
+        <activity android:name=".fragment.shouyeChildern.ShouTTh"/>
+        <activity android:name=".fragment.shouyeChildern.FeeScaleTwo"/>
+        <activity android:name=".fragment.shouyeChildern.ShouThree"/>
+        <activity android:name=".fragment.shouyeChildern.ShouThreeItemContent"/>
+        <activity android:name=".fragment.shouyeChildern.ShouFour"/>
+
+        <activity android:name=".LoginMi"/>
+
+        <activity android:name=".fragment.myChildren.AboutUs"/>
+        <activity android:name=".fragment.myChildren.address.MyAddress"/>
+        <activity android:name=".fragment.myChildren.Identidity"/>
+        <activity android:name=".fragment.myChildren.address.AddAddressPage"/>
+        <activity android:name=".fragment.myChildren.address.UpdateAddressPage"/>
+        <activity android:name=".fragment.myChildren.EditPerson"/>
+
+        <!--设置部分-->
+        <activity android:name=".fragment.myChildren.setting.SetingMain"/>
+        <activity android:name=".fragment.myChildren.setting.SettingSafe"/>
+        <activity android:name=".fragment.myChildren.setting.SettingThird"/>
+        <activity android:name=".fragment.myChildren.setting.SettingYinSi"/>
+        <activity android:name=".fragment.myChildren.setting.SettingChangePwd"/>
+        <activity android:name=".fragment.myChildren.setting.SettingNewPhone"/>
+        <activity android:name=".fragment.myChildren.setting.SettingMessage"/>
+
+        <!--我的狗狗相关界面的注册-->
+        <activity android:name=".fragment.myChildren.mydogs.AddDogPage"/>
+        <activity android:name=".fragment.myChildren.mydogs.MyDog"/>
+        <activity android:name=".fragment.myChildren.mydogs.UpdateDogPage"/>
+
+        <!--动态相关的界面-->
+        <activity android:name=".fragment.dynamicChildren.ReleaseDynamic"/>
+        <activity android:name=".fragment.dynamicChildren.AllComments"/>
+
+        <!--消息界面的相关信息-->
+        <activity android:name=".fragment.messageChildFragment.MessageComment"/>
+        <activity android:name=".fragment.messageChildFragment.PraiseActivity"/>
+        <activity android:name=".fragment.messageChildFragment.MyDynamic"/>
+        <provider
+            android:name="cn.bmob.v3.util.BmobContentProvider"
+            android:authorities="com.example.asus.xiaoliu.BmobContentProvider">
+        </provider>
+    </application>
+
+</manifest>
