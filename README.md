@@ -60,25 +60,17 @@
   <img src="./images/.jpg"  width=250 height=400 />
 </p>
 <img src="./images/logo.png"/>(./3-1-3_订单核实界面.jpg)!<img src="./images/logo.png"/>(./3-1-3-1_费用计算规则.jpg)<img src="./images/logo.png"/>./3-1-4_预约成功.jpg)
-![Alt text](./3-2-1_选择狗和地址.jpg)![Alt text](./3-2-1_选择周期.jpg)![Alt text](./3-2-3_订单核实.jpg)
-![Alt text](./3-3-1_遛狗师清单.jpg)![Alt text](./3-3-2_遛狗师资料.jpg)![Alt text](./4-1-2_商铺详情.jpg)
-![Alt text](./5-1-1_广场.jpg)![Alt text](./5-1-2_发布动态.jpg)![Alt text](./5-1-3_消息通知.jpg)
-![Alt text](./5-1-4_我的.jpg)![Alt text](./5-1-4-1_评论详情.jpg)![Alt text](./5-1-5_点赞.jpg)
-![Alt text](./5-1-6_评论.jpg)![Alt text](./6-1_全部订单.jpg)![Alt text](./6-2_未开始订单.jpg)
-![Alt text](./6-3_进行中订单.jpg)![Alt text](./6-4_已完成订单.jpg)![Alt text](./7-1_我的.jpg)
-![Alt text](./7-2_修改资料.jpg)![Alt text](./7-3_身份认证.jpg)![Alt text](./7-4_查看小狗.jpg)
-![Alt text](./7-4-1_添加狗.jpg)
-![Alt text](./7-4-2_修改狗资料.jpg)
-![Alt text](./7-5_查看地址.jpg)
-![Alt text](./7-5-1_修改地址.jpg)
-![Alt text](./7-5-2_新增地址.jpg)
-![Alt text](./7-6_账户与安全.jpg)
-![Alt text](./7-6-1_修改手机号.jpg)
-![Alt text](./7-6-2_修改密码.jpg)
-![Alt text](./7-7_关于我们.jpg)
-![Alt text](./7-8_消息通知.jpg)
-![Alt text](./7-9_检查更新.jpg)
-![Alt text](./4-1-1_商城.jpg)
-![Alt text](./7-.jpg)
-![Alt text](./6-3-1_遛狗路线.jpg)
+3-2-1_选择狗和地址.jpg  3-2-1_选择周期.jpg   3-2-3_订单核实 
+3-3-1_遛狗师清单.jpg   3-3-2_遛狗师资料.jpg    4-1-2_商铺详情 
+  5-1-1_广场.jpg    5-1-2_发布动态.jpg    5-1-3_消息通知 
+  5-1-4_我的.jpg   5-1-4-1_评论详情.jpg    5-1-5_点赞 
+  5-1-6_评论.jpg  6-1_全部订单.jpg   6-2_未开始订单 
+6-3_进行中订单.jpg   6-4_已完成订单.jpg    7-1_我的 
+7-2_修改资料.jpg   7-3_身份认证   7-4_查看小狗 
+ 7-4-1_添加狗 
+ 7-4-2_修改狗资料
+ 7-5_查看地址  7-5-1_修改地址
+7-5-2_新增地址   7-6_账户与安全
+7-6-1_修改手机号  7-6-2_修改密码   7-7_关于我们  7-8_消息通知
+7-9_检查更新  4-1-1_商城   7-.jpg   6-3-1_遛狗路线
 
