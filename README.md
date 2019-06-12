@@ -51,26 +51,68 @@
 </p>
 <p>
   <img src="./images/3-1-2_预约时间.png"  width=250 height=400 />
-  <img src="./images/.png"  width=250 height=400 />
-  <img src="./images/.png"  width=250 height=400 />
+  <img src="./images/3-1-3_订单核实界面.png"  width=250 height=400 />
+  <img src="./images/3-1-3-1_费用计算规则.png"  width=250 height=400 />
 </p>
 <p>
-  <img src="./images/.png"  width=250 height=400 />
-  <img src="./images/.png"  width=250 height=400 />
-  <img src="./images/.png"  width=250 height=400 />
+  <img src="./images/3-1-4_预约成功.png"  width=250 height=400 />
+  <img src="./images/3-2-1_选择狗和地址.png"  width=250 height=400 />
+  <img src="./images/3-2-1_选择周期.png"  width=250 height=400 />
 </p>
-<img src="./images/logo.png"/>(./3-1-3_订单核实界面.jpg)!<img src="./images/logo.png"/>(./3-1-3-1_费用计算规则.jpg)<img src="./images/logo.png"/>./3-1-4_预约成功.jpg)
-3-2-1_选择狗和地址.jpg  3-2-1_选择周期.jpg   3-2-3_订单核实 
-3-3-1_遛狗师清单.jpg   3-3-2_遛狗师资料.jpg    4-1-2_商铺详情 
-  5-1-1_广场.jpg    5-1-2_发布动态.jpg    5-1-3_消息通知 
-  5-1-4_我的.jpg   5-1-4-1_评论详情.jpg    5-1-5_点赞 
-  5-1-6_评论.jpg  6-1_全部订单.jpg   6-2_未开始订单 
-6-3_进行中订单.jpg   6-4_已完成订单.jpg    7-1_我的 
-7-2_修改资料.jpg   7-3_身份认证   7-4_查看小狗 
- 7-4-1_添加狗 
- 7-4-2_修改狗资料
- 7-5_查看地址  7-5-1_修改地址
-7-5-2_新增地址   7-6_账户与安全
-7-6-1_修改手机号  7-6-2_修改密码   7-7_关于我们  7-8_消息通知
-7-9_检查更新  4-1-1_商城   7-.jpg   6-3-1_遛狗路线
+<p>
+  <img src="./images/3-2-3_订单核实.png"  width=250 height=400 />
+  <img src="./images/3-3-1_遛狗师清单.png"  width=250 height=400 />
+  <img src="./images/3-3-2_遛狗师资料.png"  width=250 height=400 />
+</p>
+<p>
+  <img src="./images/4-1-1_商城.png"  width=250 height=400 />
+  <img src="./images/4-1-2_商铺详情.png"  width=250 height=400 />
+  <img src="./images/5-1-1_广场.png"  width=250 height=400 />
+</p>
+<p>
+  <img src="./images/5-1-2_发布动态.png"  width=250 height=400 />
+  <img src="./images/5-1-3_消息通知.png"  width=250 height=400 />
+  <img src="./images/5-1-4_我的.png"  width=250 height=400 />
+</p>
+<p>
+  <img src="./images/5-1-4-1_评论详情.png"  width=250 height=400 />
+  <img src="./images/5-1-5_点赞.png"  width=250 height=400 />
+  <img src="./images/5-1-6_评论.png"  width=250 height=400 />
+</p>
+<p>
+  <img src="./images/6-1_全部订单.png"  width=250 height=400 />
+  <img src="./images/6-2_未开始订单.png"  width=250 height=400 />
+  <img src="./images/6-3_进行中订单.png"  width=250 height=400 />
+</p>
+<p>
+  <img src="./images/6-4_已完成订单.png"  width=250 height=400 />
+  <img src="./images/7-.png"  width=250 height=400 />
+  <img src="./images/7-1_我的.png"  width=250 height=400 />
+</p>
+<p>
+  <img src="./images/7-2_修改资料.png"  width=250 height=400 />
+  <img src="./images/7-3_身份认证.png"  width=250 height=400 />
+  <img src="./images/7-4_查看小狗.png"  width=250 height=400 />
+</p>
+<p>
+  <img src="./images/7-4-1_添加狗.png"  width=250 height=400 />
+  <img src="./images/7-4-2_修改狗资料.png"  width=250 height=400 />
+  <img src="./images/7-5_查看地址.png"  width=250 height=400 />
+</p>
+<p>
+  <img src="./images/7-5-1_修改地址.png"  width=250 height=400 />
+  <img src="./images/7-5-2_新增地址.png"  width=250 height=400 />
+  <img src="./images/7-6_账户与安全.png"  width=250 height=400 />
+</p>
+<p>
+  <img src="./images/7-6-1_修改手机号.png"  width=250 height=400 />
+  <img src="./images/7-6-2_修改密码.png"  width=250 height=400 />
+  <img src="./images/7-7_关于我们.png"  width=250 height=400 />
+</p>
+<p>
+  <img src="./images/7-8_消息通知.png"  width=250 height=400 />
+  <img src="./images/7-9_检查更新.png"  width=250 height=400 />
+  <img src="./images/6-3-1_遛狗路线.png"  width=250 height=400 />
+</p>
+
 
