@@ -35,9 +35,9 @@
 ### 项目截图
 
 <p>
-  <img src="./images/0_开屏页.png"  width=250 height=400 />
-  <img src="./images/1-1_引导页.png"  width=250 height=400 />
-  <img src="./images/1-2_引导页.png"  width=250 height=400 />
+  <img src="./images/0_开屏页.png"  width=250 height=444 />
+  <img src="./images/1-1_引导页.png"  width=250 height=444 />
+  <img src="./images/1-2_引导页.png"  width=250 height=444 />
 </p>
 <p>
   <img src="./images/1-3_引导页.jpg"  width=250 height=400 />
