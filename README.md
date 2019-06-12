@@ -40,24 +40,24 @@
   <img src="./images/1-2_引导页.png"  width=250 height=444 />
 </p>
 <p>
-  <img src="./images/1-3_引导页.jpg"  width=250 height=400 />
-  <img src="./images/2-1_验证码登录页.jpg"  width=250 height=400 />
-  <img src="./images/2-2_密码登录页.jpg"  width=250 height=400 />
+  <img src="./images/1-3_引导页.png"  width=250 height=400 />
+  <img src="./images/2-1_验证码登录页.png"  width=250 height=400 />
+  <img src="./images/2-2_密码登录页.png"  width=250 height=400 />
 </p>
 <p>
-  <img src="./images/2-3_用户分类.jpg"  width=250 height=400 />
-  <img src="./images/3_首页用户.jpg"  width=250 height=400 />
-  <img src="./images/3-1-1_选择狗和地址.jpg"  width=250 height=400 />
+  <img src="./images/2-3_用户分类.png"  width=250 height=400 />
+  <img src="./images/3_首页用户.png"  width=250 height=400 />
+  <img src="./images/3-1-1_选择狗和地址.png"  width=250 height=400 />
 </p>
 <p>
-  <img src="./images/3-1-2_预约时间.jpg"  width=250 height=400 />
-  <img src="./images/.jpg"  width=250 height=400 />
-  <img src="./images/.jpg"  width=250 height=400 />
+  <img src="./images/3-1-2_预约时间.png"  width=250 height=400 />
+  <img src="./images/.png"  width=250 height=400 />
+  <img src="./images/.png"  width=250 height=400 />
 </p>
 <p>
-  <img src="./images/.jpg"  width=250 height=400 />
-  <img src="./images/.jpg"  width=250 height=400 />
-  <img src="./images/.jpg"  width=250 height=400 />
+  <img src="./images/.png"  width=250 height=400 />
+  <img src="./images/.png"  width=250 height=400 />
+  <img src="./images/.png"  width=250 height=400 />
 </p>
 <img src="./images/logo.png"/>(./3-1-3_订单核实界面.jpg)!<img src="./images/logo.png"/>(./3-1-3-1_费用计算规则.jpg)<img src="./images/logo.png"/>./3-1-4_预约成功.jpg)
 3-2-1_选择狗和地址.jpg  3-2-1_选择周期.jpg   3-2-3_订单核实 
