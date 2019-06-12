@@ -1,4 +1,4 @@
-<img src="../image/logo.png"/>
+<img src="./images/logo.png"/>
 
 # 2016级项目实训成果展示 
 
