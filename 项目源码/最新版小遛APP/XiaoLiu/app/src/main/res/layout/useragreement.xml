@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv_return"
+        android:src="@drawable/zuojiantou"
+        android:layout_marginLeft="10dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"/>
+    <TextView
+        android:text="用户协议"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:fadingEdge="vertical"
+        android:layout_margin="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="6dp"
+                android:text="服务条款和隐私权政策" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="6dp"
+                android:text="         用户协议按照约定内容类型分类，可分为服务条款和隐私权政策。" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="6dp"
+                android:text="         根据产商们的协议内容来看，服务条款主要是指服务商与用户约定服务或者产品使用过程中需要遵守的规定或政策；隐私权政策是指涉及用户个人数据和相关隐私的规定，主要你内容包括了厂商会如何处理用户个人数据和保护隐私的措施。" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="6dp"
+                android:text="         用户协议通常分为隐私权政策和服务条款：面对长篇累牍的服务条款和隐私权政策内容，我们在阅读过程中如何快速抓住要点和，下面一起来解读有哪些值得引起我们关注的条款内容（以下内容不再区分服务条款和隐私权政策:" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="6dp"
+                android:text="         服务提供商会收集哪些信息？关键词：收集" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="6dp"
+                android:text="         无论是免费或者付费使用产品和服务，不可避免地需要提供一些个人信息（包括但不限于语言偏好、在线ID绑定的标识数据，甚至是与真实社会绑定的隐私数据），所以，对于服务提供商究竟会收集了哪些用户信息，这一部分尤其值得我们关注。" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="6dp"
+                android:text="         以Goole的隐私权政策为例，官方页面已经提供了阅读导航，定位[Google收集的信息]这一部分的内容，Google将按照使用服务的流程收集用户信息：" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="6dp"
+                android:text="          1.创建Google账号时提供的内容，包括姓名和密码、添加的电话号码或付款信息。" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="6dp"
+                android:text="          2.使用Google服务过程收集的信息，包括使用的Google家应用、浏览器、设备信息、活动信息（比如搜索的字词、观看的视频记录等）、位置信息。" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

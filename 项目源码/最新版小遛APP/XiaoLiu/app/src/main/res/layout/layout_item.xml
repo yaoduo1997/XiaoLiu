@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="5dp">
+    <ImageView
+        android:id="@+id/iv_Img"
+        android:src="@drawable/pic2"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/tv_Name"
+        android:text="宠多多宠物"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/star"
+            android:layout_width="120dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:text="5.0分"
+            android:textColor="#fe7d00"
+            android:textSize="18dp"
+            android:layout_marginLeft="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:text="洗澡 | 美容 | 宠物售卖 | 食品 | 用品"
+        android:layout_width="match_parent"
+        android:textSize="16dp"
+        android:textColor="#000"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:text="营业时间：周一至周日 08：00-20:00"
+        android:layout_width="wrap_content"
+        android:textSize="16dp"
+        android:layout_marginLeft="5dp"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="联系方式:"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:id="@+id/tv_Phone"
+            android:textColor="#000"
+            android:textSize="16dp"
+            android:text="0311-8677-0538"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="详细地址:"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:id="@+id/tv_Address"
+            android:textColor="#000"
+            android:textSize="16dp"
+            android:text="建华南大街东岗路交口西行200米路南天海誉天下C-73号"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

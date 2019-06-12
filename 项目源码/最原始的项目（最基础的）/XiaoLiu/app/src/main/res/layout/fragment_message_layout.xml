@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="消息"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@color/systemColor"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center" />
+    <LinearLayout
+        android:id="@+id/ll_zhuanfa"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/collect"
+            android:layout_width="35dp"
+            android:tint="#ce1616"
+            android:layout_height="35dp" />
+        <TextView
+            android:layout_marginLeft="3dp"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:text="我的动态"
+            android:layout_width="220dp"
+            android:layout_height="30dp" />
+        <ImageView
+            android:src="@drawable/you"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_pinglun"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/pinglun"
+            android:layout_width="35dp"
+            android:tint="#2995c8"
+            android:layout_height="35dp" />
+        <TextView
+            android:layout_marginLeft="3dp"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:text="评论"
+            android:layout_width="220dp"
+            android:layout_height="30dp" />
+        <ImageView
+            android:src="@drawable/you"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_zan"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/zan"
+            android:layout_width="35dp"
+            android:tint="#ff9800"
+            android:layout_height="35dp" />
+        <TextView
+            android:layout_marginLeft="3dp"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:text="赞"
+            android:layout_width="220dp"
+            android:layout_height="30dp" />
+        <ImageView
+            android:src="@drawable/you"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+    </LinearLayout>
+
+</LinearLayout>

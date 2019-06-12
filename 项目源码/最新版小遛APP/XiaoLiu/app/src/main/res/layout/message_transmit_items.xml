@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+            <com.example.asus.xiaoliu.functiontools.myImageView
+                android:id="@+id/iv_dynamic_transmit"
+                android:src="@drawable/peiqi"
+                android:layout_width="60dp"
+                android:layout_height="55dp" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_width="200dp"
+                android:layout_height="55dp">
+                <TextView
+                    android:id="@+id/tv_transmit_name"
+                    android:text="佩奇"
+                    android:textSize="16dp"
+                    android:textColor="@color/red"
+                    android:layout_width="35dp"
+                    android:layout_height="22dp" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/tv_time"
+                        android:layout_marginTop="5dp"
+                        android:text="昨天 21:16 "
+                        android:layout_width="wrap_content"
+                        android:layout_height="25dp" />
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:text="来自"
+                        android:layout_width="wrap_content"
+                        android:layout_height="25dp" />
+                    <TextView
+                        android:id="@+id/tv_phonetype"
+                        android:textColor="#2995c8"
+                        android:layout_marginTop="5dp"
+                        android:text="iPhone X"
+                        android:layout_width="wrap_content"
+                        android:layout_height="25dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:text="赞了这条动态"
+            android:layout_marginLeft="35dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+            <com.example.asus.xiaoliu.functiontools.myImageView
+                android:id="@+id/iv_dynamic_publish"
+                android:src="@drawable/a0"
+                android:layout_width="85dp"
+                android:layout_height="75dp" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="220dp"
+                android:layout_height="75dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textSize="17dp"
+                        android:layout_marginTop="5dp"
+                        android:text=" @"
+                        android:textColor="#101010"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/tv_nicheng"
+                        android:textSize="17dp"
+                        android:layout_marginTop="5dp"
+                        android:text="tompkins"
+                        android:textColor="#101010"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/tv_dynamic_content"
+                    android:layout_marginTop="10dp"
+                    android:text="谁来帮我溜溜我的小狗呢（烦"
+                    android:textColor="#595252"
+                    android:layout_width="210dp"
+                    android:layout_height="20dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

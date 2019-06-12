@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/iv_zuojiantou"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:src="@drawable/pre"/>
+        <TextView
+            android:text="我的小狗"
+            android:textSize="20dp"
+            android:layout_margin="5dp"
+            android:textColor="#000000"
+            android:layout_width="0dp"
+            android:layout_weight="7.5"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/dogimage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/addimage"
+            />
+        <EditText
+            android:id="@+id/dogname"
+            android:hint="请输入狗狗名字"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="18dp"
+            android:layout_marginRight="30dp"
+            android:layout_alignTop="@+id/dogimage"
+            android:layout_toRightOf="@+id/dogimage"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="@drawable/edit_background"/>
+
+        <EditText
+            android:inputType="number|numberDecimal"
+            android:id="@+id/dogage"
+            android:hint="请输入狗狗年龄"
+            android:layout_marginTop="10dp"
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/dogimage"
+            android:layout_below="@+id/dogname"
+            android:layout_width="match_parent"
+            android:layout_marginRight="30dp"
+            android:layout_height="25dp"
+            android:background="@drawable/edit_background"/>
+        <EditText
+            android:id="@+id/dogtype"
+            android:hint="请输入狗狗品种"
+            android:layout_marginTop="10dp"
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/dogimage"
+            android:layout_below="@+id/dogage"
+            android:layout_width="match_parent"
+            android:layout_marginRight="30dp"
+            android:layout_height="25dp"
+            android:background="@drawable/edit_background"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="40dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/guomin" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="过敏原"
+                android:textColor="#cd101010"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/et_allergn"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/edit_background"
+                android:hint="请输入过敏原" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/xihuan" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="喜欢的"
+                android:textColor="#cd101010"
+                android:textSize="16dp"/>
+
+            <EditText
+                android:id="@+id/et_like_food"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/edit_background"
+                android:hint="它喜欢什么呢" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/buxihuan" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="讨厌的"
+                android:textColor="#cd101010"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/et_bad_food"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/edit_background"
+                android:hint="它讨厌什么呢" />
+        </LinearLayout>
+    </LinearLayout>
+    <Button
+        android:text="保存"
+        android:layout_margin="30dp"
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/shape"
+        />
+</LinearLayout>
