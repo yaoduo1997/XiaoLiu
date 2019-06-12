@@ -33,8 +33,33 @@
 
 
 ### 项目截图
-![Alt text](./3_首页用户.jpg)![Alt text](./3-1-1_选择狗和地址.jpg)![Alt text](./3-1-2_预约时间.jpg)
-![Alt text](./3-1-3_订单核实界面.jpg)![Alt text](./3-1-3-1_费用计算规则.jpg)![Alt text](./3-1-4_预约成功.jpg)
+
+<p>
+  <img src="./images/0_开屏页.jpg"  width=250 height=400 />
+  <img src="./images/1-1_引导页.jpg"  width=250 height=400 />
+  <img src="./images/1-2_引导页.jpg"  width=250 height=400 />
+</p>
+<p>
+  <img src="./images/1-3_引导页.jpg"  width=250 height=400 />
+  <img src="./images/2-1_验证码登录页.jpg"  width=250 height=400 />
+  <img src="./images/2-2_密码登录页.jpg"  width=250 height=400 />
+</p>
+<p>
+  <img src="./images/2-3_用户分类.jpg"  width=250 height=400 />
+  <img src="./images/3_首页用户.jpg"  width=250 height=400 />
+  <img src="./images/3-1-1_选择狗和地址.jpg"  width=250 height=400 />
+</p>
+<p>
+  <img src="./images/3-1-2_预约时间.jpg"  width=250 height=400 />
+  <img src="./images/.jpg"  width=250 height=400 />
+  <img src="./images/.jpg"  width=250 height=400 />
+</p>
+<p>
+  <img src="./images/.jpg"  width=250 height=400 />
+  <img src="./images/.jpg"  width=250 height=400 />
+  <img src="./images/.jpg"  width=250 height=400 />
+</p>
+<img src="./images/logo.png"/>(./3-1-3_订单核实界面.jpg)!<img src="./images/logo.png"/>(./3-1-3-1_费用计算规则.jpg)<img src="./images/logo.png"/>./3-1-4_预约成功.jpg)
 ![Alt text](./3-2-1_选择狗和地址.jpg)![Alt text](./3-2-1_选择周期.jpg)![Alt text](./3-2-3_订单核实.jpg)
 ![Alt text](./3-3-1_遛狗师清单.jpg)![Alt text](./3-3-2_遛狗师资料.jpg)![Alt text](./4-1-2_商铺详情.jpg)
 ![Alt text](./5-1-1_广场.jpg)![Alt text](./5-1-2_发布动态.jpg)![Alt text](./5-1-3_消息通知.jpg)
@@ -53,14 +78,7 @@
 ![Alt text](./7-7_关于我们.jpg)
 ![Alt text](./7-8_消息通知.jpg)
 ![Alt text](./7-9_检查更新.jpg)
-![Alt text](./0_开屏页.jpg)
-![Alt text](./1-3_引导页.jpg)
-![Alt text](./2-1_验证码登录页.jpg)
-![Alt text](./2-2_密码登录页.jpg)
 ![Alt text](./4-1-1_商城.jpg)
 ![Alt text](./7-.jpg)
-![Alt text](./1-1_引导页.jpg)
-![Alt text](./1-2_引导页.jpg)
-![Alt text](./2-3_用户分类.jpg)
 ![Alt text](./6-3-1_遛狗路线.jpg)
 
